@@ -12,7 +12,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) {
-        SqlConexiune sql= new SqlConexiune();
+        SqlConexiune sql = new SqlConexiune();
         sql.init();
         new LoginPage(stage, sql);
     }
