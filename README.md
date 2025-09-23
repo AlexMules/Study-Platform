@@ -1,7 +1,13 @@
-# Study platform
+# Study Platform
 ## University study platform built with an SQL-based relational database and JavaFX GUI framework
 
 This project is the implementation of a university study platform. The app uses an SQL relational database to store information regarding users and various university activities. User interaction is carried out through a graphical user interface. Functionalities include managing students and professors, as well as coordinating tasks within study programs.<br><br>
+
+## Tools and Technologies
+* MySQL Workbench – used to create the database, populate initial data, develop views, stored procedures, and triggers, and create the UML diagram of the data model
+* IntelliJ IDEA – Java development environment
+* MySQL Connector/J – a JDBC (Java Database Connectivity) driver provided by Oracle that allows Java applications to connect to and interact with MySQL databases. It facilitates executing SQL queries, manipulating data, and managing connections between the Java application and the MySQL server.
+* JavaFX – a framework used for developing the graphical user interface (GUI) in Java<br><br>
 
 ## Login
 The application can be accessed, following an authentication process, by multiple types of users: students, professors, and administrators. For each user, personal information such as first name, last name, address, phone number, etc., is stored. Users can view their personal data immediately after logging in, but they do not have the ability to modify it. The application also provides a logout functionality, which returns to the login screen, allowing another user to access the system without restarting the application.
@@ -80,11 +86,11 @@ Additionally, students can join study groups for a course they are enrolled in (
     <img width="300" src="https://github.com/user-attachments/assets/646e9d98-5424-41c8-82fc-2f2ca1556980" />
 </div><br><br>
 
-## Data model
+## Data Model
 <img width="1104" height="785" alt="image" src="https://github.com/user-attachments/assets/3c171551-e974-4b82-a4ea-a4dc73596c71" />
 <br><br>
 
-## Database normalization
+## Database Normalization
 The database conforms to Boyce-Codd Normal Form (BCNF). Each table has a single primary key that uniquely identifies its records. For example, in the `utilizatori` table, the primary key is `user_id`, and all functional dependencies are fully dependent on this key. This ensures that each record can be uniquely identified and eliminates redundancy in the database.
 <br><br>
 
