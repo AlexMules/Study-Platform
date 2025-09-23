@@ -78,7 +78,26 @@ Additionally, students can join study groups for a course they are enrolled in (
     <img width="300" src="https://github.com/user-attachments/assets/4974496d-33fa-4f94-a446-178cd8728b57" />
     &nbsp;&nbsp;&nbsp;&nbsp;
     <img width="300" src="https://github.com/user-attachments/assets/646e9d98-5424-41c8-82fc-2f2ca1556980" />
-</div>
+</div><br><br>
+
+## Data model
+<img width="1104" height="785" alt="image" src="https://github.com/user-attachments/assets/3c171551-e974-4b82-a4ea-a4dc73596c71" />
+<br><br>
+
+## Database normalization
+The database conforms to Boyce-Codd Normal Form (BCNF). Each table has a single primary key that uniquely identifies its records. For example, in the `utilizatori` table, the primary key is `user_id`, and all functional dependencies are fully dependent on this key. This ensures that each record can be uniquely identified and eliminates redundancy in the database.
+<br><br>
+
+## User Manual
+When the application is launched, the user is greeted with the login window. To continue, they must enter their login credentials: email address and password.
+
+After logging in, the page corresponding to the user’s role (student, professor, administrator, or super-administrator) will open. This window allows performing various operations within the study platform. Students can enroll in courses and activities. Professors can schedule different activities (lecture, seminar, lab) and grade students. Administrators and super-administrators can add, modify, and delete information in the database, as well as search for users by name and role.
+
+The program also provides a logout feature, returning the user to the login window so that another user can access the platform without restarting the application.
+
+The graphical interface makes all these operations easy to perform. In addition, the design is user-friendly, facilitating efficient data management.
+
+
 
 
 
