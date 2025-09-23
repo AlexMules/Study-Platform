@@ -67,9 +67,9 @@ Additionally, students can join study groups for a course they are enrolled in (
     &nbsp;&nbsp;&nbsp;&nbsp;
     <img width="250" src="https://github.com/user-attachments/assets/5427e170-57a7-4995-bd6f-9a2cce8cedec" />
     <br></br>
-    <img width="250" src="https://github.com/user-attachments/assets/2a232263-8607-413a-8135-5674317873fe" />
-    &nbsp;&nbsp;&nbsp;&nbsp;
     <img width="250" src="https://github.com/user-attachments/assets/36042658-b254-4e7d-89c5-979a7929dc30" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img width="250" src="https://github.com/user-attachments/assets/2a232263-8607-413a-8135-5674317873fe" />
     <br></br>
     <img width="500" src="https://github.com/user-attachments/assets/3d8ec7da-801c-4389-a19e-15a076aadb1c" />
     &nbsp;&nbsp;&nbsp;&nbsp;
