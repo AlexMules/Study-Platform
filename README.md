@@ -67,7 +67,7 @@ Additionally, students can join study groups for a course they are enrolled in (
     &nbsp;&nbsp;&nbsp;&nbsp;
     <img width="250" src="https://github.com/user-attachments/assets/5427e170-57a7-4995-bd6f-9a2cce8cedec" />
     <br></br>
-    <img width="250" src="https://github.com/user-attachments/assets/646e9d98-5424-41c8-82fc-2f2ca1556980" />
+    <img width="250" src="https://github.com/user-attachments/assets/2a232263-8607-413a-8135-5674317873fe" />
     &nbsp;&nbsp;&nbsp;&nbsp;
     <img width="250" src="https://github.com/user-attachments/assets/36042658-b254-4e7d-89c5-979a7929dc30" />
     <br></br>
@@ -77,7 +77,7 @@ Additionally, students can join study groups for a course they are enrolled in (
     <br></br>
     <img width="300" src="https://github.com/user-attachments/assets/4974496d-33fa-4f94-a446-178cd8728b57" />
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <img width="300" src="https://github.com/user-attachments/assets/2a232263-8607-413a-8135-5674317873fe" />
+    <img width="300" src="https://github.com/user-attachments/assets/646e9d98-5424-41c8-82fc-2f2ca1556980" />
 </div>
 
 
