@@ -60,6 +60,24 @@ Additionally, students can join study groups for a course they are enrolled in (
     <img width="250" src="https://github.com/user-attachments/assets/3e63914a-5002-45a1-b04d-e15c4f13aedd" />
     &nbsp;&nbsp;&nbsp;&nbsp;
     <img width="250" src="https://github.com/user-attachments/assets/e9b75021-ff49-41ca-958e-bf01d6503c15" />
+    <br></br>
+    <img width="250" src="https://github.com/user-attachments/assets/76a4fd71-3453-47ad-a98a-0822cdcc8685" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img width="250" src="https://github.com/user-attachments/assets/8bba5649-604c-45f0-9364-5e6be10da6b2" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img width="250" src="https://github.com/user-attachments/assets/5427e170-57a7-4995-bd6f-9a2cce8cedec" />
+    <br></br>
+    <img width="250" src="https://github.com/user-attachments/assets/646e9d98-5424-41c8-82fc-2f2ca1556980" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img width="250" src="https://github.com/user-attachments/assets/36042658-b254-4e7d-89c5-979a7929dc30" />
+    <br></br>
+    <img width="500" src="https://github.com/user-attachments/assets/3d8ec7da-801c-4389-a19e-15a076aadb1c" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img width="400" src="https://github.com/user-attachments/assets/d61145b7-4823-4414-b0bf-8f0897a0b2fe" />
+    <br></br>
+    <img width="300" src="https://github.com/user-attachments/assets/4974496d-33fa-4f94-a446-178cd8728b57" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img width="300" src="https://github.com/user-attachments/assets/2a232263-8607-413a-8135-5674317873fe" />
 </div>
 
 
