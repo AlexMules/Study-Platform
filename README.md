@@ -17,7 +17,7 @@ The application can be accessed, following an authentication process, by multipl
 </p><br><br>
 
 ## Administrator
-The administrators can add, modify, and delete user information in the database. Additionally, there is a super-administrator role, which has the ability to manage administrator users as well. Administrators can search for users by name and filter them by type. They can also assign professors to courses and search for courses by name. Most of these operations are handled internally through stored procedures in the database (for example, `AdaugaStudent` procedure, which adds a new student’s information).
+The administrators can add, modify, and delete user information in the database. Additionally, there is a super-administrator role, which has the ability to manage administrator users as well. Administrators can search for users by name and filter them by type. They can also assign professors to courses and search for courses by name. Most of these operations are handled internally through stored procedures in the database (for example, **`AdaugaStudent`** procedure, which adds a new student’s information).
 
 <div align="center">
   <img width="280" src="https://github.com/user-attachments/assets/d5992db1-2949-46e2-ad78-12e2e0d2d78c" />
@@ -30,11 +30,11 @@ The administrators can add, modify, and delete user information in the database.
 </div><br><br>
 
 ## Professor
-The app makes it easy to manage teaching activities and student–professor interactions. Courses are taught by multiple professors and include three types of activities: lecture, seminar, lab. The professor can schedule activities by day and time, also specifying the maximum number of participants. This is performed using the stored procedure `ProfesorProgramareActivitate`, which checks whether an activity already exists on the same day and time for that professor. In case of a conflict, an error message is displayed.
+The app makes it easy to manage teaching activities and student–professor interactions. Courses are taught by multiple professors and include three types of activities: lecture, seminar, lab. The professor can schedule activities by day and time, also specifying the maximum number of participants. This is performed using the stored procedure **`ProfesorProgramareActivitate`**, which checks whether an activity already exists on the same day and time for that professor. In case of a conflict, an error message is displayed.
 
-Students are graded for each type of activity and receive a final grade as a weighted average across all activities. The professor sets the percentage breakdown for each type through the graphical interface (e.g., 20% seminar, 35% lab, 45% lecture/exam). The `activitati` table has a trigger called `TriggerRecalculeazaNoteFinala`. When the professor updates the percentage weights of the activities, the final grades in the gradebook for all enrolled students are automatically recalculated. 
+Students are graded for each type of activity and receive a final grade as a weighted average across all activities. The professor sets the percentage breakdown for each type through the graphical interface (e.g., 20% seminar, 35% lab, 45% lecture/exam). The **`activitati`** table has a trigger called **`TriggerRecalculeazaNoteFinala`**. When the professor updates the percentage weights of the activities, the final grades in the gradebook for all enrolled students are automatically recalculated. 
 
-Professors can also access a gradebook where they can enter grades for students. This is managed by the `SetareNoteStudent` procedure.    
+Professors can also access a gradebook where they can enter grades for students. This is managed by the **`SetareNoteStudent`** procedure.    
 
 <div align="center">
     <img width="300" src="https://github.com/user-attachments/assets/81debd46-f119-4d9c-a6e7-62f3cc42c3ed" />
@@ -48,13 +48,13 @@ Professors can also access a gradebook where they can enter grades for students.
 </div><br><br>
 
 ## Student
-Students can enroll in courses and are assigned to the professor with the fewest students at the time of enrollment (managed by `StudentInscriereMaterie` procedure). They can also drop courses and view their grades.
+Students can enroll in courses and are assigned to the professor with the fewest students at the time of enrollment (managed by **`StudentInscriereMaterie`** procedure). They can also drop courses and view their grades.
 
-Each student must choose the activities they want to participate in. The trigger `check_activity_enrollment`, associated with the `calendar` table, checks whether a student can enroll in a specific activity. It verifies that there are available spots and ensures the student has no conflicting activities at the same time. Otherwise, an error message is displayed.
+Each student must choose the activities they want to participate in. The trigger **`check_activity_enrollment`**, associated with the **`calendar`** table, checks whether a student can enroll in a specific activity. It verifies that there are available spots and ensures the student has no conflicting activities at the same time. Otherwise, an error message is displayed.
 
 Upon logging in, students can view their activities for the current day and access a page listing all the activities they are enrolled in.
 
-Additionally, students can join study groups for a course they are enrolled in (`InscriereGrupStudiu` procedure). They can view all group members and post messages. Within a study group, students can add activities and set a minimum number of participants as well as a time window for others to confirm attendance. For example, a student could add an activity for extra practice on 12.12.2025 at 16:00, lasting 2 hours, with a minimum of 5 participants and a 2-hour registration period. If the minimum number is not reached, the activity is cancelled.
+Additionally, students can join study groups for a course they are enrolled in (**`InscriereGrupStudiu`** procedure). They can view all group members and post messages. Within a study group, students can add activities and set a minimum number of participants as well as a time window for others to confirm attendance. For example, a student could add an activity for extra practice on 12.12.2025 at 16:00, lasting 2 hours, with a minimum of 5 participants and a 2-hour registration period. If the minimum number is not reached, the activity is cancelled.
 
 <div align="center">
     <img width="250" src="https://github.com/user-attachments/assets/6af5d228-560f-4a4e-b139-1de6b839a85b" />
@@ -91,7 +91,7 @@ Additionally, students can join study groups for a course they are enrolled in (
 <br><br>
 
 ## Database Normalization
-The database conforms to Boyce-Codd Normal Form (BCNF). Each table has a single primary key that uniquely identifies its records. For example, in the `utilizatori` table, the primary key is `user_id`, and all functional dependencies are fully dependent on this key. This ensures that each record can be uniquely identified and eliminates redundancy in the database.
+The database conforms to Boyce-Codd Normal Form (BCNF). Each table has a single primary key that uniquely identifies its records. For example, in the **`utilizatori`** table, the primary key is **`user_id`**, and all functional dependencies are fully dependent on this key. This ensures that each record can be uniquely identified and eliminates redundancy in the database.
 <br><br>
 
 ## User Manual
