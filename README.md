@@ -1,9 +1,9 @@
-# Study Platform
+# Study Platform :mortar_board:
 ## University study platform built with an SQL-based relational database and JavaFX GUI framework
 
 This project is the implementation of a university study platform. The app uses an SQL relational database to store information regarding users and various university activities. User interaction is carried out through a graphical user interface. Functionalities include managing students and professors, as well as coordinating tasks within study programs.<br><br>
 
-## Tools and Technologies
+## :hammer_and_wrench: Tools and Technologies
 * MySQL Workbench – used to create the database, populate initial data, develop views, stored procedures, and triggers, and create the UML diagram of the data model
 * IntelliJ IDEA – Java development environment
 * MySQL Connector/J – a JDBC (Java Database Connectivity) driver provided by Oracle that allows Java applications to connect to and interact with MySQL databases. It facilitates executing SQL queries, manipulating data, and managing connections between the Java application and the MySQL server.
