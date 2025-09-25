@@ -1,5 +1,5 @@
 # Study Platform :mortar_board:
-## University study platform built with an SQL-based relational database and JavaFX GUI framework
+## University study platform with a relational database and JavaFX GUI
 
 This project is the implementation of a university study platform. The app uses a relational database to store information regarding users and various university activities. User interaction is carried out through a graphical user interface. Functionalities include managing students and professors, as well as coordinating tasks within study programs.<br><br>
 
